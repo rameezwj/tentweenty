@@ -1,4 +1,4 @@
-import img4 from './img4.svg';
+import img4 from './img3.jpg';
 
 const Profile = (props)=>{
 	const {label, info} = props.iprofile;

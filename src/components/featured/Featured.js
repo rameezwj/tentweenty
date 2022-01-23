@@ -1,4 +1,4 @@
-import img7 from './img7.svg';
+import img7 from './img7.jpg';
 
 function Featured(props) {
   const stylesHeader = {};
