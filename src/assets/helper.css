@@ -2224,8 +2224,8 @@
 
     *[data-scroll]{
       will-change: transform;
-      opacity: 0;
-      transition: opacity .7s linear .7s
+      /*opacity: 0;*/
+      /*transition: opacity .7s linear .7s*/
     }
     *[data-scroll].is-inview{
       opacity: 1;

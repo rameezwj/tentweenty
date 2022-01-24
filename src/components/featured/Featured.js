@@ -10,8 +10,8 @@ function Featured(props) {
       </h1>
       <div className="py3 df jcsb">
         <div className="widthb60">
-          <div className="art_img hv_mask">
-            <img src={img7} />
+          <div className="art_img hv_mask" data-scroll data-scroll-speed="2">
+            <img src={img7} data-scroll data-scroll-speed="-2" />
           </div>
         </div>
         <div className="widthb35 df aic">

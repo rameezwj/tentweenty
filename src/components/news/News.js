@@ -17,8 +17,8 @@ function News(){
 		        </p>
 		        <span className="db mb2"> U. R. Oliver </span>
 		      </div>
-		      <div className="art_img hv_mask">
-		        <img src={img1} className="widthb100" />
+		      <div className="art_img hv_mask" data-scroll data-scroll-speed="2">
+		        <img src={img1} className="widthb100" data-scroll data-scroll-speed="-2" />
 		      </div>
 		    </div>
 		  </div>
@@ -44,8 +44,8 @@ function News(){
 		    </div>
 
 		    <div className="art_wrap">
-		      <div className="art_img mb1 hv_mask">
-		        <img src={img2} className="widthb100" />
+		      <div className="art_img mb1 hv_mask" data-scroll data-scroll-speed="2">
+		        <img src={img2} className="widthb100" data-scroll data-scroll-speed="-2" />
 		      </div>
 		      <div className="widthb100 art_info">
 		        <span className="dib fs1 ttu label"> Open House </span>
@@ -59,8 +59,8 @@ function News(){
 		  </div>
 		  <div className="widthb22">
 		    <div className="art_wrap">
-		      <div className="art_img mb1 hv_mask">
-		        <img src={img3} className="widthb100" />
+		      <div className="art_img mb1 hv_mask" data-scroll data-scroll-speed="2">
+		        <img src={img3} className="widthb100" data-scroll data-scroll-speed="-2" />
 		      </div>
 		      <div className="widthb100 art_info">
 		        <span className="dib fs1 ttu label"> Open House </span>
