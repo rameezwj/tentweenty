@@ -3,11 +3,13 @@ $bgColor: var(--bgColor);
 $ffRoboto: 'Roboto Condensed', sans-serif !important;
 $ffPopins: 'Playfair Display', serif !important;
 
+body{ height: 100vh; overflow: hidden; }
 /*wrapper that contains the app*/
 .app_wrapper{
 	background-color: $bgColor;
 	color: $fontColor;
 	transition: all .3s linear;
+	/*height: 100vh;*/
 	
 	h2{
 		font-size: calc( var(--base_font_size) * 2.2);
