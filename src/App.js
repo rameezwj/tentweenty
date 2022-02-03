@@ -10,6 +10,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 function App() {
   const [theme, setTheme] = useState("theme-light");
+  const [loader, setLoader] = useState(true);
 
   useEffect(()=>{
     hoverAnimation();
